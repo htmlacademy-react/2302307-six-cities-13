@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [Andrey Vorontsov](https://up.htmlacademy.ru/react/13/user/2302307).
-* Наставник: `Неизвестно`.
+* Наставник: [Елена Грицук](https://htmlacademy.ru/profile/id199079).
 
 ---
 
