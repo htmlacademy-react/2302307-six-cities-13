@@ -1,6 +1,6 @@
 
 
-function EmptyMainPage(): JSX.Element {
+function EmptyMainPage(): React.JSX.Element {
   return(
     <div className="page page--gray page--main">
       <header className="header">

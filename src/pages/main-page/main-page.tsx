@@ -4,7 +4,7 @@ type MainPageProps = {
   placesCount: number;
 };
 
-function MainPage({placesCount}: MainPageProps): JSX.Element {
+function MainPage({placesCount}: MainPageProps): React.JSX.Element {
   return (
     <div className="page page--gray page--main">
       <header className="header">

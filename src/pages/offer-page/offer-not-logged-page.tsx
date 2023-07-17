@@ -1,6 +1,6 @@
 
 
-function OfferNotLoggedPage(): JSX.Element {
+function OfferNotLoggedPage(): React.JSX.Element {
   return(
     <div className="page">
       <header className="header">
