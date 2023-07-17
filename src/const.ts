@@ -1,1 +1,1 @@
-export const placesCount = 15;
+export const PLACES_COUNT = 15;
