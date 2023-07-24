@@ -1,15 +1,18 @@
+import { Helmet } from 'react-helmet-async';
+import HeaderLogo from '../../components/header-logo/header-logo';
 
 
-function EmptyMainPage(): JSX.Element {
+function EmptyMainPage(): React.JSX.Element {
   return(
     <div className="page page--gray page--main">
+      <Helmet>
+        <title>6 Cities | Main</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">
             <div className="header__left">
-              <a className="header__logo-link header__logo-link--active">
-                <img className="header__logo" src="img/logo.svg" alt="6 cities logo" width="81" height="41"/>
-              </a>
+              <HeaderLogo/>
             </div>
             <nav className="header__nav">
               <ul className="header__nav-list">
