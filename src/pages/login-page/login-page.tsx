@@ -1,9 +1,13 @@
+import { Helmet } from 'react-helmet-async';
 import HeaderLogo from '../../components/header-logo/header-logo';
 
 
 function LoginPage(): React.JSX.Element {
   return (
     <div className="page page--gray page--login">
+      <Helmet>
+        <title>6 Cities | Login</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">

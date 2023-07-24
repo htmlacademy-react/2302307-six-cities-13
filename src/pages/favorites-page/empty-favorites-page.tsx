@@ -1,9 +1,13 @@
+import { Helmet } from 'react-helmet-async';
 import HeaderLogo from '../../components/header-logo/header-logo';
 
 
 function EmptyFavoritesPage(): React.JSX.Element {
   return(
     <div className="page page--favorites-empty">
+      <Helmet>
+        <title>6 Cities | Favorites</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">

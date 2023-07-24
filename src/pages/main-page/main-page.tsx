@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import HeaderLogo from '../../components/header-logo/header-logo';
 import PlaceCard from '../../components/place-card/place-card';
 
@@ -8,6 +9,9 @@ type MainPageProps = {
 function MainPage({placesCount}: MainPageProps): React.JSX.Element {
   return (
     <div className="page page--gray page--main">
+      <Helmet>
+        <title>6 Cities | Main</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">
